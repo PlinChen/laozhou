@@ -5,3 +5,5 @@ Logs*
 *.csproj
 Packages/packages-lock.json
 *.sln
+UserSettings*
+obj*
