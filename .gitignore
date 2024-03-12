@@ -1,0 +1,7 @@
+Library*
+Temp*
+Logs*
+.idea*
+*.csproj
+Packages/packages-lock.json
+*.sln
