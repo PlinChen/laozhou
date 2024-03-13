@@ -1,0 +1,101 @@
+<svg width="350" height="350" xmlns="http://www.w3.org/2000/svg">
+    <!-- 绘制网格线 -->
+    <rect x="50" y="50" width="250" height="250" fill="none" stroke="black" stroke-width="2.5"/>
+    <!-- Vertical 1 -->
+    <line x1="100" y1="55" x2="100" y2="95" stroke="black" stroke-width="1"/>
+    <line x1="100" y1="105" x2="100" y2="145" stroke="black" stroke-width="1"/>
+    <line x1="100" y1="155" x2="100" y2="195" stroke="black" stroke-width="1"/>
+    <line x1="100" y1="205" x2="100" y2="245" stroke="black" stroke-width="1"/>
+    <line x1="100" y1="255" x2="100" y2="295" stroke="black" stroke-width="1"/>
+    <!-- Vertical 2 -->
+    <line x1="150" y1="55" x2="150" y2="95" stroke="black" stroke-width="1"/>
+    <line x1="150" y1="105" x2="150" y2="145" stroke="black" stroke-width="1"/>
+    <line x1="150" y1="155" x2="150" y2="195" stroke="black" stroke-width="1"/>
+    <line x1="150" y1="205" x2="150" y2="245" stroke="black" stroke-width="1"/>
+    <line x1="150" y1="255" x2="150" y2="295" stroke="black" stroke-width="1"/>
+    <!-- Vertical 3 -->
+    <line x1="200" y1="55" x2="200" y2="95" stroke="black" stroke-width="1"/>
+    <line x1="200" y1="105" x2="200" y2="145" stroke="black" stroke-width="1"/>
+    <line x1="200" y1="155" x2="200" y2="195" stroke="black" stroke-width="1"/>
+    <line x1="200" y1="205" x2="200" y2="245" stroke="black" stroke-width="1"/>
+    <line x1="200" y1="255" x2="200" y2="295" stroke="black" stroke-width="1"/>
+    <!-- Vertical 4 -->
+    <line x1="250" y1="55" x2="250" y2="95" stroke="black" stroke-width="1"/>
+    <line x1="250" y1="105" x2="250" y2="145" stroke="black" stroke-width="1"/>
+    <line x1="250" y1="155" x2="250" y2="195" stroke="black" stroke-width="1"/>
+    <line x1="250" y1="205" x2="250" y2="245" stroke="black" stroke-width="1"/>
+    <line x1="250" y1="255" x2="250" y2="295" stroke="black" stroke-width="1"/>
+
+    <!-- Horizontal 1 -->
+    <line x1="55" y1="100" x2="95" y2="100" stroke="black" stroke-width="1"/>
+    <line x1="105" y1="100" x2="145" y2="100" stroke="black" stroke-width="1"/>
+    <line x1="155" y1="100" x2="195" y2="100" stroke="black" stroke-width="1"/>
+    <line x1="205" y1="100" x2="245" y2="100" stroke="black" stroke-width="1"/>
+    <line x1="255" y1="100" x2="295" y2="100" stroke="black" stroke-width="1"/>
+    <!-- Horizontal 2 -->
+    <line x1="55" y1="150" x2="95" y2="150" stroke="black" stroke-width="1"/>
+    <line x1="105" y1="150" x2="145" y2="150" stroke="black" stroke-width="1"/>
+    <line x1="155" y1="150" x2="195" y2="150" stroke="black" stroke-width="1"/>
+    <line x1="205" y1="150" x2="245" y2="150" stroke="black" stroke-width="1"/>
+    <line x1="255" y1="150" x2="295" y2="150" stroke="black" stroke-width="1"/>
+    <!-- Horizontal 3 -->
+    <line x1="55" y1="200" x2="95" y2="200" stroke="black" stroke-width="1"/>
+    <line x1="105" y1="200" x2="145" y2="200" stroke="black" stroke-width="1"/>
+    <line x1="155" y1="200" x2="195" y2="200" stroke="black" stroke-width="1"/>
+    <line x1="205" y1="200" x2="245" y2="200" stroke="black" stroke-width="1"/>
+    <line x1="255" y1="200" x2="295" y2="200" stroke="black" stroke-width="1"/>
+    <!-- Horizontal 4 -->
+    <line x1="55" y1="250" x2="95" y2="250" stroke="black" stroke-width="1"/>
+    <line x1="105" y1="250" x2="145" y2="250" stroke="black" stroke-width="1"/>
+    <line x1="155" y1="250" x2="195" y2="250" stroke="black" stroke-width="1"/>
+    <line x1="205" y1="250" x2="245" y2="250" stroke="black" stroke-width="1"/>
+    <line x1="255" y1="250" x2="295" y2="250" stroke="black" stroke-width="1"/>
+
+    <!-- 绘制空心圆 -->
+    <!-- Horizontal 1 -->
+    <path d="M55 50 A 3 3 0 0 1 50 55" stroke="black" stroke-width="1" fill="none"/>
+    <path d="M95 50 A 5 5 0 0 0 105 50" stroke="black" stroke-width="1" fill="none"/>
+    <path d="M145 50 A 5 5 0 0 0 155 50" stroke="black" stroke-width="1" fill="none"/>
+    <path d="M195 50 A 5 5 0 0 0 205 50" stroke="black" stroke-width="1" fill="none"/>
+    <path d="M245 50 A 5 5 0 0 0 255 50" stroke="black" stroke-width="1" fill="none"/>
+    <path d="M295 50 A 3 3 0 0 0 300 55" stroke="black" stroke-width="1" fill="none"/>
+    <!-- Horizontal 2 -->
+    <path d="M50 95 A 5 5 0 0 1 50 105" stroke="black" stroke-width="1" fill="none"/>
+    <circle cx="100" cy="100" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="150" cy="100" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="200" cy="100" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="250" cy="100" r="5" fill="none" stroke="black" stroke-width="1" />
+    <path d="M300 95 A 5 5 0 0 0 300 105" stroke="black" stroke-width="1" fill="none"/>
+
+    <!-- Horizontal 3 -->
+    <path d="M50 145 A 5 5 0 0 1 50 155" stroke="black" stroke-width="1" fill="none"/>
+    <circle cx="100" cy="150" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="150" cy="150" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="200" cy="150" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="250" cy="150" r="5" fill="none" stroke="black" stroke-width="1" />
+    <path d="M300 145 A 5 5 0 0 0 300 155" stroke="black" stroke-width="1" fill="none"/>
+
+    <!-- Horizontal 4 -->
+    <path d="M50 195 A 5 5 0 0 1 50 205" stroke="black" stroke-width="1" fill="none"/>
+    <circle cx="100" cy="200" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="150" cy="200" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="200" cy="200" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="250" cy="200" r="5" fill="none" stroke="black" stroke-width="1" />
+    <path d="M300 195 A 5 5 0 0 0 300 205" stroke="black" stroke-width="1" fill="none"/>
+     
+    <!-- Horizontal 5 -->
+    <path d="M50 245 A 5 5 0 0 1 50 255" stroke="black" stroke-width="1" fill="none"/>
+    <circle cx="100" cy="250" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="150" cy="250" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="200" cy="250" r="5" fill="none" stroke="black" stroke-width="1" />
+    <circle cx="250" cy="250" r="5" fill="none" stroke="black" stroke-width="1" />
+    <path d="M300 245 A 5 5 0 0 0 300 255" stroke="black" stroke-width="1" fill="none"/>
+
+    <path d="M50 295 A 3 3 0 0 1 55 300" stroke="black" stroke-width="1" fill="none"/>
+    <path d="M95 300 A 5 5 0 0 1 105 300" stroke="black" stroke-width="1" fill="none"/>
+    <path d="M145 300 A 5 5 0 0 1 155 300" stroke="black" stroke-width="1" fill="none"/>
+    <path d="M195 300 A 5 5 0 0 1 205 300" stroke="black" stroke-width="1" fill="none"/>
+    <path d="M245 300 A 5 5 0 0 1 255 300" stroke="black" stroke-width="1" fill="none"/>
+    <path d="M295 300 A 3 3 0 0 1 300 295" stroke="black" stroke-width="1" fill="none"/>
+
+</svg>
