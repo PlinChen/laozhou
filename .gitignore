@@ -4,6 +4,7 @@ Logs*
 .idea*
 *.csproj
 Packages/packages-lock.json
-*.sln
+*.sln*
 UserSettings*
 obj*
+ProjectSettings/SceneTemplateSettings.json
