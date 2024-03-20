@@ -83,11 +83,11 @@ public class DataModelTest
         var fileStream = ReadFromSerialized<HorseBoard>(horseBoard);
         var deserialized = Serializer.Deserialize<HorseBoard>(fileStream);
         Debug.Log($"deserialized = {deserialized}");
-        
-        var commonLinesCount = Math.Min(horseBoard.Count(), deserialized.Count());
+
+        var commonLinesCount = Math.Min(horseBoard.RowCount, deserialized.RowCount);
         for (var i = 0; i < commonLinesCount; i++)
         {
-            var commonHorseCount = Math.Min(horseBoard[i].Count(), deserialized[i].Count());
+            var commonHorseCount = Math.Min(horseBoard.ColumnCount, deserialized.ColumnCount);
             for (var j = 0; j < commonHorseCount; j++)
             {
                 Assert.AreEqual(horseBoard[i, j], deserialized[i, j]);
